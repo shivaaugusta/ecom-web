@@ -1,0 +1,168 @@
+.div {
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+  min-width: 31px;
+}
+.discountPercent {
+  border-radius: var(--br-9xs);
+  background-color: var(--secondary-2);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-xs);
+}
+.fillEyeIcon,
+.fillHeartIcon {
+  width: 34px;
+  height: 34px;
+  position: relative;
+}
+.fillHeartParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.samMoghadamKhamsehKvmdstrgoIcon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 41px;
+  max-height: 100%;
+  width: 107px;
+  object-fit: cover;
+}
+.samMoghadamKhamsehKvmdstrgoWrapper {
+  height: 180px;
+  width: 190px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 90px);
+  left: calc(50% - 95px);
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.discountPercentParent {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--secondary);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-xs) var(--padding-143xl);
+  position: relative;
+  gap: var(--gap-xl);
+}
+.div1,
+.div2,
+.sSeriesComfortChair {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.sSeriesComfortChair {
+  align-self: stretch;
+}
+.div1,
+.div2 {
+  display: inline-block;
+  min-width: 40px;
+  white-space: nowrap;
+}
+.div2 {
+  text-decoration: line-through;
+  color: var(--color-gray-600);
+  min-width: 42px;
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  color: var(--secondary-2);
+}
+.vectorIcon,
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-11xs-4);
+  min-height: 20px;
+}
+.starHalfFilledIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.fourHalfStar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div3 {
+  align-self: stretch;
+  width: 32px;
+  position: relative;
+  line-height: 21px;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.fourHalfStarParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--title-14px-regular-size);
+  color: var(--color-gray-600);
+}
+.sSeriesComfortChairParent {
+  width: 207px;
+  height: 84px;
+  flex-direction: column;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  font-size: var(--title-16px-regular-size);
+  color: var(--button);
+}
+.cartWithFlatDiscount,
+.featuredProducts,
+.sSeriesComfortChairParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cartWithFlatDiscount {
+  width: 270px;
+  flex-shrink: 0;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.featuredProducts {
+  width: 1305px;
+  overflow-x: auto;
+  flex-direction: row;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--title-12px-medium-size);
+  color: var(--text);
+  font-family: var(--title-16px-regular);
+}

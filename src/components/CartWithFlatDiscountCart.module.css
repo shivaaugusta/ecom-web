@@ -1,0 +1,142 @@
+.curologyJ7pkvqrtusmUnsplashIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 2;
+}
+.discountedProductImageConta {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-15xl) 0 0;
+}
+.cartChild {
+  height: 180px;
+  width: 190px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.fillEyeIcon,
+.fillHeartIcon {
+  width: 34px;
+  height: 34px;
+  position: relative;
+}
+.cart,
+.curologyIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.cart {
+  align-self: stretch;
+  height: 250px;
+  border-radius: var(--br-9xs);
+  background-color: var(--secondary);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-xs) var(--padding-26xl)
+    var(--padding-30xl);
+  box-sizing: border-box;
+  gap: var(--gap-10xs);
+}
+.curologyProductSet,
+.ratingPlaceholder {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.ratingPlaceholder {
+  display: inline-block;
+  min-width: 42px;
+  white-space: nowrap;
+}
+.ratingContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorIcon,
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-11xs-4);
+  min-height: 20px;
+}
+.fourStar {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.curologyLabel {
+  width: 40px;
+  position: relative;
+  line-height: 21px;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.curologyRating,
+.fourStarParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.fourStarParent {
+  flex: 1;
+  align-items: flex-start;
+  font-size: var(--title-14px-regular-size);
+  color: var(--color-gray-600);
+}
+.curologyRating {
+  align-self: stretch;
+  align-items: center;
+  color: var(--secondary-2);
+}
+.cartWithFlatDiscountCart,
+.curologyProductSetParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.curologyProductSetParent {
+  width: 198px;
+  gap: var(--gap-5xs);
+}
+.cartWithFlatDiscountCart {
+  flex: 1;
+  gap: var(--gap-base);
+  min-width: 248px;
+  max-width: 270px;
+  text-align: left;
+  font-size: var(--title-16px-regular-size);
+  color: var(--button);
+  font-family: var(--title-16px-regular);
+}
+@media screen and (max-width: 450px) {
+  .cart {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

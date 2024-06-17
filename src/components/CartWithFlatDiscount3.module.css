@@ -1,0 +1,139 @@
+.div {
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+  min-width: 31px;
+}
+.discountPercent {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  border-radius: var(--br-9xs);
+  background-color: var(--secondary-2);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-xs);
+}
+.fillEyeIcon,
+.fillHeartIcon {
+  width: 34px;
+  height: 34px;
+  position: relative;
+}
+.fillHeartParent {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.g922500x5001Icon {
+  position: absolute;
+  width: calc(100% - 18px);
+  top: calc(50% - 76px);
+  right: 9px;
+  left: 9px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 152px;
+  object-fit: cover;
+}
+.g922500x5001Wrapper {
+  position: absolute;
+  top: calc(50% - 90px);
+  left: calc(50% - 95px);
+  width: 190px;
+  height: 180px;
+  overflow: hidden;
+  z-index: 1;
+}
+.discountContainers {
+  align-self: stretch;
+  height: 250px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--secondary);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div1,
+.div2,
+.havitHvG92Gamepad {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.div1,
+.div2 {
+  display: inline-block;
+  min-width: 36px;
+  white-space: nowrap;
+}
+.div2 {
+  text-decoration: line-through;
+  color: var(--color-gray-600);
+  min-width: 37px;
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  color: var(--secondary-2);
+}
+.starFiveIcon,
+.starFourIcon,
+.starOneIcon,
+.starThreeIcon,
+.starTwoIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-11xs-4);
+  min-height: 20px;
+}
+.fiveStar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.price {
+  position: relative;
+  line-height: 21px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 32px;
+}
+.cartWithFlatDiscount,
+.fiveStarParent,
+.havitHvG92GamepadParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--title-14px-regular-size);
+  color: var(--color-gray-600);
+}
+.cartWithFlatDiscount,
+.havitHvG92GamepadParent {
+  flex-direction: column;
+  font-size: var(--title-16px-regular-size);
+  color: var(--button);
+}
+.cartWithFlatDiscount {
+  flex: 1;
+  gap: var(--gap-base);
+  min-width: 175px;
+  text-align: left;
+  font-size: var(--title-12px-medium-size);
+  color: var(--text);
+  font-family: var(--title-16px-regular);
+}

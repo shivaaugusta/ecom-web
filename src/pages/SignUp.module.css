@@ -1,0 +1,34 @@
+.main,
+.signUp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.main {
+  align-self: stretch;
+  gap: var(--gap-41xl);
+  max-width: 100%;
+}
+.signUp {
+  width: 100%;
+  position: relative;
+  background-color: var(--bg);
+  overflow: hidden;
+  gap: var(--gap-121xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .main {
+    gap: var(--gap-11xl);
+  }
+  .signUp {
+    gap: var(--gap-51xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .signUp {
+    gap: var(--gap-16xl);
+  }
+}

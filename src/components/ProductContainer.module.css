@@ -1,0 +1,481 @@
+.categoryCellphoneIcon {
+  height: 56px;
+  width: 56px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.categoryContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+}
+.phones {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 59px;
+}
+.categoryPhone {
+  flex: 0.5882;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) var(--padding-35xl) var(--padding-3xl);
+  gap: var(--gap-base);
+  min-width: 167px;
+  max-width: 170px;
+}
+.categoryComputerIcon {
+  height: 56px;
+  width: 56px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.categoryComputerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mid) 0 var(--padding-lg);
+}
+.computers {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 91px;
+}
+.categoryPhone1 {
+  flex: 0.8922;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) var(--padding-19xl) var(--padding-3xl)
+    var(--padding-20xl);
+  gap: var(--gap-base);
+  min-width: 167px;
+  max-width: 170px;
+}
+.categoryCameraIcon {
+  height: 56px;
+  width: 56px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.categoryCameraWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+}
+.camera {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 67px;
+}
+.categoryPhone2 {
+  flex: 0.6667;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) var(--padding-31xl) var(--padding-3xl);
+  gap: var(--gap-base);
+  min-width: 167px;
+  max-width: 170px;
+}
+.categoryHeadphoneIcon {
+  height: 56px;
+  width: 56px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.categoryHeadphoneWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xl);
+}
+.headphones {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 101px;
+}
+.categoryPhone3 {
+  flex: 1;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) var(--padding-14xl) var(--padding-3xl);
+  gap: var(--gap-base);
+  min-width: 167px;
+  max-width: 170px;
+}
+.categoryGamepadIcon {
+  height: 56px;
+  width: 56px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.categoryGamepadWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 var(--padding-9xs);
+}
+.gaming {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 65px;
+}
+.categoryPhone4 {
+  flex: 0.6373;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) var(--padding-32xl) var(--padding-3xl)
+    var(--padding-33xl);
+  gap: var(--gap-base);
+  min-width: 167px;
+  max-width: 170px;
+}
+.categoryHeader,
+.categoryList {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-11xl);
+}
+.categoryHeader {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-41xl);
+  max-width: 100%;
+}
+.computer {
+  align-self: stretch;
+  height: 0.5px;
+  position: relative;
+  border-top: 0.5px solid var(--button);
+  box-sizing: border-box;
+  opacity: 0.3;
+}
+.instanceChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--secondary-2);
+}
+.gamepadInner {
+  height: 40px;
+  width: 20px;
+  position: relative;
+}
+.thisMonth {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 89px;
+}
+.gamepad {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.bestSellingProducts {
+  margin: 0;
+  position: relative;
+  font-size: var(--heading-36px-semibold-size);
+  letter-spacing: 0.04em;
+  line-height: 48px;
+  font-weight: 600;
+  font-family: var(--heading-24px-bold);
+  color: var(--button);
+}
+.headphone {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.viewAllProducts {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--title-16px-regular-size);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--title-16px-regular);
+  color: var(--text);
+  text-align: left;
+  display: inline-block;
+  min-width: 63px;
+}
+.button,
+.camera1 {
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-29xl);
+  background-color: var(--secondary-2);
+  border-radius: var(--br-9xs);
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: var(--color-salmon);
+}
+.camera1 {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.fillEyeIcon,
+.fillHeartIcon {
+  width: 34px;
+  height: 34px;
+  position: relative;
+}
+.fillHeartParent {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.samMoghadamKhamsehL7mqshlIcon {
+  position: absolute;
+  height: calc(100% - 4px);
+  top: 3px;
+  bottom: 1px;
+  left: calc(50% - 70px);
+  max-height: 100%;
+  width: 140px;
+  object-fit: cover;
+}
+.samMoghadamKhamsehL7mqshlWrapper {
+  position: absolute;
+  top: 35px;
+  left: 40px;
+  width: 190px;
+  height: 180px;
+  overflow: hidden;
+  z-index: 1;
+}
+.cart1 {
+  align-self: stretch;
+  height: 250px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--secondary);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div,
+.smallBookself {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 119px;
+}
+.div {
+  min-width: 41px;
+  white-space: nowrap;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--secondary-2);
+}
+.vectorIcon,
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-11xs-4);
+  min-height: 20px;
+}
+.fiveStar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div1 {
+  position: relative;
+  line-height: 21px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 32px;
+}
+.fiveStarParent,
+.smallBookselfParent {
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.fiveStarParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: var(--title-14px-regular-size);
+  color: var(--color-gray-600);
+}
+.smallBookselfParent {
+  flex-direction: column;
+}
+.bestSellingTitle,
+.cart,
+.smallBookselfParent {
+  display: flex;
+  align-items: flex-start;
+}
+.cart {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  min-width: 248px;
+  max-width: 270px;
+}
+.bestSellingTitle {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-11xl);
+  color: var(--button);
+}
+.smartWatch {
+  align-self: stretch;
+  gap: var(--gap-41xl);
+  color: var(--secondary-2);
+}
+.categoryHeaderParent,
+.productContainer,
+.smartWatch {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.categoryHeaderParent {
+  align-self: stretch;
+  gap: var(--gap-50xl-8);
+}
+.productContainer {
+  width: 1190px;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-60xl-5);
+  text-align: left;
+  font-size: var(--title-16px-regular-size);
+  color: var(--button);
+  font-family: var(--title-16px-regular);
+}
+@media screen and (max-width: 1200px) {
+  .categoryHeader,
+  .smartWatch {
+    gap: var(--gap-11xl);
+  }
+  .categoryHeaderParent {
+    gap: var(--gap-16xl);
+  }
+  .productContainer {
+    gap: var(--gap-21xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .categoryList {
+    flex-wrap: wrap;
+  }
+  .bestSellingProducts {
+    font-size: var(--font-size-10xl);
+    line-height: 38px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .camera1 {
+    flex-wrap: wrap;
+  }
+  .categoryHeaderParent {
+    gap: var(--gap-mid);
+  }
+  .productContainer {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .categoryPhone,
+  .categoryPhone1,
+  .categoryPhone2,
+  .categoryPhone4 {
+    flex: 1;
+  }
+  .bestSellingProducts {
+    font-size: var(--font-size-3xl);
+    line-height: 29px;
+  }
+}

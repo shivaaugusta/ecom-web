@@ -1,0 +1,85 @@
+.electronics,
+.mensFashion,
+.womansFashion {
+  position: relative;
+  line-height: 24px;
+}
+.electronics,
+.mensFashion {
+  display: inline-block;
+  min-width: 112px;
+}
+.electronics {
+  min-width: 87px;
+}
+.subCategories {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.dropdownIcon,
+.dropdownIcon1 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.categoryDropdowns,
+.subCategoriesParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.subCategoriesParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.homeLifestyle {
+  position: relative;
+  line-height: 24px;
+}
+.medicine {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  min-width: 73px;
+}
+.medicine,
+.sportsOutdoor {
+  position: relative;
+  line-height: 24px;
+}
+.babysToys {
+  display: inline-block;
+  min-width: 109px;
+}
+.babysToys,
+.groceriesPets,
+.healthBeauty {
+  position: relative;
+  line-height: 24px;
+}
+.healthBeauty {
+  display: inline-block;
+  min-width: 128px;
+}
+.topCategories {
+  width: 217px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  text-align: center;
+  font-size: var(--title-16px-regular-size);
+  color: var(--button);
+  font-family: var(--title-16px-regular);
+}

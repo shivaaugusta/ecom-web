@@ -1,0 +1,241 @@
+.dlbeatsnoop1Icon {
+  position: absolute;
+  top: 75px;
+  left: -8px;
+  width: 919px;
+  height: 706px;
+  object-fit: cover;
+}
+.sideImage {
+  height: 781px;
+  flex: 1;
+  position: relative;
+  border-radius: 0 var(--br-9xs) var(--br-9xs) 0;
+  background-color: var(--color-powderblue);
+  overflow: hidden;
+  min-width: 523px;
+  max-width: 100%;
+}
+.enterYourDetails,
+.logInTo {
+  position: relative;
+  color: var(--button);
+  text-align: left;
+}
+.logInTo {
+  margin: 0;
+  font-size: var(--heading-36px-semibold-size);
+  letter-spacing: 0.04em;
+  line-height: 30px;
+  font-weight: 500;
+  font-family: var(--heading-24px-bold);
+}
+.enterYourDetails {
+  font-size: var(--title-16px-regular-size);
+  line-height: 24px;
+  font-family: var(--title-16px-regular);
+}
+.loginDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.emailOrPhone {
+  position: relative;
+  font-size: var(--title-16px-regular-size);
+  line-height: 24px;
+  font-family: var(--title-16px-regular);
+  color: var(--color-gray-200);
+  text-align: left;
+}
+.underlineIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.credentials {
+  align-self: stretch;
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.password {
+  position: relative;
+  font-size: var(--title-16px-regular-size);
+  line-height: 24px;
+  font-family: var(--title-16px-regular);
+  color: var(--color-gray-200);
+  text-align: left;
+  display: inline-block;
+  min-width: 77px;
+}
+.underlineIcon1 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.credentials1,
+.inputFields,
+.loginForm {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.credentials1 {
+  height: 32px;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.inputFields,
+.loginForm {
+  gap: var(--gap-21xl);
+}
+.loginForm {
+  gap: var(--gap-29xl);
+  max-width: 100%;
+}
+.viewAllProducts {
+  position: relative;
+  font-size: var(--title-16px-regular-size);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--title-16px-regular);
+  color: var(--text);
+  text-align: left;
+  display: inline-block;
+  min-width: 47px;
+}
+.button {
+  border-radius: var(--br-9xs);
+  background-color: var(--secondary-2);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-29xl);
+  white-space: nowrap;
+}
+.loginButtonContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.forgetPassword {
+  position: relative;
+  font-size: var(--title-16px-regular-size);
+  line-height: 24px;
+  font-family: var(--title-16px-regular);
+  color: var(--secondary-2);
+  text-align: left;
+}
+.loginActions {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.body,
+.loginFormContainer,
+.loginFormContainerWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.loginFormContainer {
+  margin: 0;
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+}
+.body,
+.loginFormContainerWrapper {
+  box-sizing: border-box;
+}
+.loginFormContainerWrapper {
+  width: 371px;
+  flex-direction: column;
+  padding: var(--padding-208xl-5) 0 0;
+  min-width: 371px;
+}
+.body {
+  width: 1325px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-110xl);
+}
+@media screen and (max-width: 1200px) {
+  .body {
+    gap: var(--gap-45xl);
+  }
+}
+@media screen and (max-width: 1100px) {
+  .loginFormContainerWrapper {
+    flex: 1;
+  }
+  .body {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .sideImage {
+    min-width: 100%;
+  }
+  .logInTo {
+    font-size: var(--font-size-10xl);
+    line-height: 24px;
+  }
+  .loginFormContainerWrapper {
+    padding-top: var(--padding-129xl);
+    box-sizing: border-box;
+  }
+  .body {
+    gap: var(--gap-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .logInTo {
+    font-size: var(--font-size-3xl);
+    line-height: 18px;
+  }
+  .inputFields {
+    gap: var(--gap-xl);
+  }
+  .loginForm {
+    gap: var(--gap-5xl);
+  }
+  .loginActions {
+    flex-wrap: wrap;
+  }
+  .loginFormContainer {
+    gap: var(--gap-xl);
+  }
+  .loginFormContainerWrapper {
+    min-width: 100%;
+  }
+  .body {
+    gap: var(--gap-base);
+  }
+}

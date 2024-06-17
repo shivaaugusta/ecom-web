@@ -1,0 +1,178 @@
+.frameChild {
+  width: 100%;
+  height: 41px;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 0 var(--br-9xs) var(--br-9xs);
+  background-color: var(--button);
+}
+.div {
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+  min-width: 31px;
+}
+.discountPercent {
+  border-radius: var(--br-9xs);
+  background-color: var(--secondary-2);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-xs);
+}
+.fillEyeIcon,
+.fillHeartIcon {
+  width: 34px;
+  height: 34px;
+  position: relative;
+}
+.ak90001500x5001Icon {
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 96px);
+  width: 191px;
+  height: 101px;
+  object-fit: cover;
+}
+.eyeValue {
+  width: 190px;
+  height: 180px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -107px;
+  left: -184px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.fillHeartParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-5xs);
+}
+.discountPercentParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.addToCart {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 96px;
+  z-index: 1;
+}
+.addToCartWrapper,
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.addToCartWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-56xl);
+  font-size: var(--title-16px-regular-size);
+  color: var(--bg);
+}
+.rectangleParent {
+  border-radius: var(--br-9xs);
+  background-color: var(--secondary);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-xs) var(--padding-4xs);
+  position: relative;
+  gap: var(--gap-110xl);
+}
+.ak900WiredKeyboard,
+.div1,
+.div2 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.div1,
+.div2 {
+  display: inline-block;
+  min-width: 42px;
+  white-space: nowrap;
+}
+.div2 {
+  text-decoration: line-through;
+  color: var(--color-gray-600);
+  min-width: 43px;
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  color: var(--secondary-2);
+}
+.vectorIcon,
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-11xs-4);
+  min-height: 20px;
+}
+.fourStar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div3 {
+  position: relative;
+  line-height: 21px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 32px;
+}
+.ak900WiredKeyboardParent,
+.cartWithFlatDiscount,
+.fourStarParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--title-14px-regular-size);
+  color: var(--color-gray-600);
+}
+.ak900WiredKeyboardParent,
+.cartWithFlatDiscount {
+  flex-direction: column;
+  font-size: var(--title-16px-regular-size);
+  color: var(--button);
+}
+.cartWithFlatDiscount {
+  flex: 1;
+  gap: var(--gap-base);
+  min-width: 175px;
+  text-align: left;
+  font-size: var(--title-12px-medium-size);
+  color: var(--text);
+  font-family: var(--title-16px-regular);
+}
+@media screen and (max-width: 450px) {
+  .rectangleParent {
+    gap: var(--gap-45xl);
+  }
+}

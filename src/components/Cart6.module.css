@@ -1,0 +1,129 @@
+.fillEyeIcon,
+.fillHeartIcon {
+  width: 34px;
+  height: 34px;
+  position: relative;
+}
+.fillHeartParent {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.c2st87460010820000LightGIcon {
+  position: absolute;
+  width: calc(100% - 12px);
+  top: calc(50% - 64px);
+  right: 6px;
+  left: 6px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 129px;
+  object-fit: cover;
+}
+.c2st87460010820000LightGWrapper {
+  position: absolute;
+  top: calc(50% - 90px);
+  left: calc(50% - 95px);
+  width: 190px;
+  height: 180px;
+  overflow: hidden;
+  z-index: 1;
+}
+.cart1 {
+  align-self: stretch;
+  height: 250px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--secondary);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div,
+.div1,
+.gucciDuffleBag {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.div,
+.div1 {
+  display: inline-block;
+  min-width: 42px;
+  white-space: nowrap;
+}
+.div1 {
+  text-decoration: line-through;
+  color: var(--color-gray-600);
+  min-width: 43px;
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  color: var(--secondary-2);
+}
+.vectorIcon,
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-11xs-4);
+  min-height: 20px;
+}
+.starHalfFilledIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.fourHalfStar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div2 {
+  position: relative;
+  line-height: 21px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 32px;
+}
+.cart,
+.fourHalfStarParent,
+.gucciDuffleBagParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.fourHalfStarParent {
+  flex-direction: row;
+  font-size: var(--title-14px-regular-size);
+  color: var(--color-gray-600);
+}
+.cart,
+.gucciDuffleBagParent {
+  flex-direction: column;
+}
+.cart {
+  flex: 1;
+  gap: var(--gap-base);
+  min-width: 248px;
+  max-width: 270px;
+  text-align: left;
+  font-size: var(--title-16px-regular-size);
+  color: var(--button);
+  font-family: var(--title-16px-regular);
+}

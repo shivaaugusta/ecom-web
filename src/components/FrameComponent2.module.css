@@ -1,0 +1,89 @@
+.instanceChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--secondary-2);
+}
+.rectangleWrapper {
+  height: 40px;
+  width: 20px;
+  position: relative;
+}
+.categories {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 90px;
+}
+.instanceParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.browseByCategory {
+  margin: 0;
+  position: relative;
+  font-size: var(--heading-36px-semibold-size);
+  letter-spacing: 0.04em;
+  line-height: 48px;
+  font-weight: 600;
+  font-family: var(--heading-24px-bold);
+  color: var(--button);
+}
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.fillWithLeftArrow,
+.fillWithRightArrow {
+  height: 46px;
+  width: 46px;
+  position: relative;
+  min-height: 46px;
+}
+.fillWithLeftArrowParent,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameParent {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--title-16px-regular-size);
+  color: var(--secondary-2);
+  font-family: var(--title-16px-regular);
+}
+@media screen and (max-width: 825px) {
+  .browseByCategory {
+    font-size: var(--font-size-10xl);
+    line-height: 38px;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .browseByCategory {
+    font-size: var(--font-size-3xl);
+    line-height: 29px;
+  }
+}

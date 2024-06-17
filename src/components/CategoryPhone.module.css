@@ -1,0 +1,123 @@
+.vectorIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon1 {
+  height: 7px;
+  width: 14px;
+  position: relative;
+  z-index: 1;
+}
+.starFour {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs);
+}
+.vector {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0 solid var(--button);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.frameChild,
+.frameInner,
+.frameItem {
+  height: 15px;
+  width: 2px;
+  position: relative;
+  border-right: 2px solid var(--button);
+  box-sizing: border-box;
+}
+.frameInner,
+.frameItem {
+  height: 10px;
+}
+.frameInner {
+  height: 12px;
+}
+.lineParent {
+  position: absolute;
+  top: 8px;
+  left: 9px;
+  height: 13px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  z-index: 2;
+}
+.price,
+.vectorIcon2 {
+  width: 28px;
+  height: 28px;
+  position: relative;
+}
+.vectorIcon2 {
+  height: 7px;
+  width: 14px;
+  z-index: 1;
+}
+.productImage {
+  flex-direction: row;
+  padding: 0 var(--padding-6xs);
+}
+.categorySmartwatch,
+.categorySmartwatchWrapper,
+.productImage {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.categorySmartwatch {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-6xs) var(--padding-sm);
+  position: relative;
+}
+.categorySmartwatchWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-4xl);
+}
+.smartwatch {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 101px;
+}
+.categoryPhone {
+  flex: 1;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) var(--padding-14xl) var(--padding-3xl);
+  gap: var(--gap-base);
+  min-width: 110px;
+  text-align: left;
+  font-size: var(--title-16px-regular-size);
+  color: var(--button);
+  font-family: var(--title-16px-regular);
+}

@@ -1,0 +1,420 @@
+.categories,
+.enhanceYourMusic {
+  position: relative;
+  font-weight: 600;
+}
+.categories {
+  line-height: 20px;
+  display: inline-block;
+  min-width: 90px;
+}
+.enhanceYourMusic {
+  margin: 0;
+  align-self: stretch;
+  font-size: var(--heading-48px-semibold-size);
+  letter-spacing: 0.04em;
+  line-height: 60px;
+  font-family: var(--heading-24px-bold);
+  color: var(--text);
+}
+.flashSellTimerChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--bg);
+}
+.timerInner {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 19px;
+  flex-shrink: 0;
+  debug_commit: 448091;
+}
+.musicTimerPadding {
+  align-self: stretch;
+  height: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.hours {
+  position: relative;
+  font-size: var(--font-size-2xs);
+  line-height: 18px;
+  display: inline-block;
+  min-width: 32px;
+  flex-shrink: 0;
+  debug_commit: 448091;
+}
+.timerContent {
+  position: absolute;
+  height: 54.84%;
+  width: 51.61%;
+  top: 22.58%;
+  right: 24.19%;
+  bottom: 22.58%;
+  left: 24.19%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.flashSellTimer {
+  height: 62px;
+  width: 62px;
+  position: relative;
+}
+.flashSellTimerItem {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--bg);
+}
+.div {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 21px;
+  flex-shrink: 0;
+  debug_commit: 448091;
+}
+.wrapper {
+  height: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.days {
+  position: relative;
+  font-size: var(--font-size-2xs);
+  line-height: 18px;
+  display: inline-block;
+  min-width: 28px;
+  flex-shrink: 0;
+  debug_commit: 448091;
+}
+.frameParent {
+  position: absolute;
+  height: 54.84%;
+  width: 45.16%;
+  top: 22.58%;
+  right: 27.42%;
+  bottom: 22.58%;
+  left: 27.42%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.flashSellTimer1 {
+  height: 62px;
+  width: 62px;
+  position: relative;
+}
+.flashSellTimerInner {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--bg);
+}
+.div1 {
+  margin-bottom: -4px;
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 21px;
+  flex-shrink: 0;
+  debug_commit: 448091;
+}
+.container {
+  height: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.minutes {
+  margin-left: -11px;
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-2xs);
+  line-height: 18px;
+  color: inherit;
+  display: inline-block;
+  min-width: 43px;
+  flex-shrink: 0;
+  debug_commit: 448091;
+}
+.frameGroup {
+  position: absolute;
+  height: 54.84%;
+  width: 67.74%;
+  top: 22.58%;
+  right: 16.13%;
+  bottom: 22.58%;
+  left: 16.13%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.flashSellTimer2 {
+  height: 62px;
+  width: 62px;
+  position: relative;
+}
+.ellipseDiv {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--bg);
+}
+.div2 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 20px;
+  flex-shrink: 0;
+  debug_commit: 448091;
+}
+.frame {
+  height: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) 0 var(--padding-xs);
+  box-sizing: border-box;
+}
+.seconds {
+  position: relative;
+  font-size: var(--font-size-2xs);
+  line-height: 18px;
+  display: inline-block;
+  min-width: 48px;
+  flex-shrink: 0;
+  debug_commit: 448091;
+}
+.frameContainer {
+  position: absolute;
+  height: 54.84%;
+  width: 77.42%;
+  top: 22.58%;
+  right: 11.29%;
+  bottom: 22.58%;
+  left: 11.29%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.flashSellTimer3 {
+  height: 62px;
+  width: 62px;
+  position: relative;
+}
+.musicTimerContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.viewAllProducts {
+  position: relative;
+  font-size: var(--title-16px-regular-size);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--title-16px-regular);
+  color: var(--text);
+  text-align: left;
+  display: inline-block;
+  min-width: 75px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-29xl);
+  background-color: var(--button1);
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: var(--color-limegreen);
+}
+.musicBannerTimer {
+  width: 320px;
+  gap: var(--gap-21xl);
+  color: var(--button);
+}
+.musicBannerContainer,
+.musicBannerContent,
+.musicBannerTimer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.musicBannerContent {
+  align-self: stretch;
+  gap: var(--gap-13xl);
+}
+.musicBannerContainer {
+  width: 499px;
+  padding: var(--padding-50xl) 0 0 var(--padding-37xl);
+  box-sizing: border-box;
+  min-width: 499px;
+  max-width: 100%;
+}
+.musicImageContainerChild {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 26px;
+  filter: blur(200px);
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  width: 504px;
+}
+.jblBoombox2Hero020X11 {
+  position: absolute;
+  top: calc(50% - 165px);
+  left: calc(50% - 284px);
+  width: 568px;
+  height: 330px;
+  object-fit: contain;
+}
+.productImage {
+  position: absolute;
+  top: 37px;
+  left: 0;
+  width: 600px;
+  height: 420px;
+  overflow: hidden;
+  z-index: 1;
+}
+.musicImageContainer {
+  height: 500px;
+  flex: 1;
+  position: relative;
+  min-width: 390px;
+  max-width: 100%;
+}
+.musicExpInner,
+.separator {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.musicExpInner {
+  flex: 1;
+  background-color: var(--button);
+  overflow: hidden;
+  padding: 0 var(--padding-25xl) 0 0;
+  gap: var(--gap-8xl);
+}
+.separator {
+  align-self: stretch;
+  padding: 0 0 var(--padding-2xs);
+  text-align: left;
+  font-size: var(--title-16px-regular-size);
+  color: var(--button1);
+  font-family: var(--title-16px-regular);
+}
+@media screen and (max-width: 1400px) {
+  .musicExpInner {
+    padding-right: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .musicBannerContainer {
+    flex: 1;
+  }
+  .musicExpInner {
+    flex-wrap: wrap;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .enhanceYourMusic {
+    font-size: var(--font-size-19xl);
+    line-height: 48px;
+  }
+  .musicBannerContainer {
+    padding-left: var(--padding-9xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .musicImageContainer {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .enhanceYourMusic {
+    font-size: var(--font-size-10xl);
+    line-height: 36px;
+  }
+  .musicBannerTimer {
+    gap: var(--gap-xl);
+  }
+  .musicBannerContent {
+    gap: var(--gap-base);
+  }
+  .musicBannerContainer {
+    padding-top: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+}

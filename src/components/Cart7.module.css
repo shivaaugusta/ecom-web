@@ -1,0 +1,119 @@
+.fillEyeIcon,
+.fillHeartIcon {
+  width: 34px;
+  height: 34px;
+  position: relative;
+}
+.fillHeartParent {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.zah9d56260021000000LightIcon {
+  position: absolute;
+  top: calc(50% - 73px);
+  left: calc(50% - 70px);
+  width: 140px;
+  height: 146px;
+  object-fit: contain;
+}
+.imageTwo {
+  position: absolute;
+  top: calc(50% - 90px);
+  left: calc(50% - 95px);
+  width: 190px;
+  height: 180px;
+  overflow: hidden;
+  z-index: 1;
+}
+.cart1 {
+  align-self: stretch;
+  height: 250px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--secondary);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.priceRowTwo,
+.tagsTwo,
+.theNorthCoat {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 118px;
+}
+.priceRowTwo,
+.tagsTwo {
+  min-width: 41px;
+  white-space: nowrap;
+}
+.priceRowTwo {
+  text-decoration: line-through;
+  color: var(--color-gray-600);
+}
+.tagsRowTwo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  color: var(--secondary-2);
+}
+.filledStarEight,
+.filledStarNine,
+.filledStarSeven,
+.filledStarSix,
+.filledStarTen {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-11xs-4);
+  min-height: 20px;
+}
+.fiveStar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.oldPriceRow {
+  position: relative;
+  line-height: 21px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 32px;
+}
+.cart,
+.productNameRowTwo,
+.ratingRowTwo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.ratingRowTwo {
+  flex-direction: row;
+  font-size: var(--title-14px-regular-size);
+  color: var(--color-gray-600);
+}
+.cart,
+.productNameRowTwo {
+  flex-direction: column;
+}
+.cart {
+  flex: 1;
+  gap: var(--gap-base);
+  min-width: 248px;
+  max-width: 270px;
+  text-align: left;
+  font-size: var(--title-16px-regular-size);
+  color: var(--button);
+  font-family: var(--title-16px-regular);
+}

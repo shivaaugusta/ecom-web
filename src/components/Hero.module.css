@@ -1,0 +1,341 @@
+.dlbeatsnoop1Icon {
+  position: absolute;
+  top: 75px;
+  left: -8px;
+  width: 919px;
+  height: 706px;
+  object-fit: cover;
+}
+.sideImage {
+  height: 781px;
+  flex: 1;
+  position: relative;
+  border-radius: 0 var(--br-9xs) var(--br-9xs) 0;
+  background-color: var(--color-powderblue);
+  overflow: hidden;
+  min-width: 523px;
+  max-width: 100%;
+}
+.createAnAccount {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.04em;
+  line-height: 30px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.enterYourDetails {
+  position: relative;
+  font-size: var(--title-16px-regular-size);
+  line-height: 24px;
+  font-family: var(--title-16px-regular);
+}
+.formHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.name {
+  position: relative;
+  font-size: var(--title-16px-regular-size);
+  line-height: 24px;
+  font-family: var(--title-16px-regular);
+  color: var(--color-gray-200);
+  text-align: left;
+  display: inline-block;
+  min-width: 49px;
+}
+.underlineIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.formFieldItems {
+  align-self: stretch;
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.emailOrPhone {
+  position: relative;
+  font-size: var(--title-16px-regular-size);
+  line-height: 24px;
+  font-family: var(--title-16px-regular);
+  color: var(--color-gray-200);
+  text-align: left;
+}
+.underlineIcon1 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.formFieldItems1 {
+  align-self: stretch;
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.password {
+  position: relative;
+  font-size: var(--title-16px-regular-size);
+  line-height: 24px;
+  font-family: var(--title-16px-regular);
+  color: var(--color-gray-200);
+  text-align: left;
+  display: inline-block;
+  min-width: 77px;
+}
+.underlineIcon2 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.formFieldItems2,
+.formFieldList {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.formFieldItems2 {
+  height: 32px;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.formFieldList {
+  gap: var(--gap-21xl);
+}
+.viewAllProducts {
+  position: relative;
+  font-size: var(--title-16px-regular-size);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--title-16px-regular);
+  color: var(--text);
+  text-align: left;
+  display: inline-block;
+  min-width: 127px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-xl);
+  background-color: var(--secondary-2);
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: var(--color-salmon);
+}
+.iconGoogle {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.signUpWith {
+  position: relative;
+  font-size: var(--title-16px-regular-size);
+  line-height: 24px;
+  font-family: var(--title-16px-regular);
+  color: var(--button);
+  text-align: left;
+}
+.googleLoginButton,
+.googleSignUp {
+  display: flex;
+  align-items: flex-start;
+}
+.googleLoginButton {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.googleSignUp {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-200);
+  padding: var(--padding-sm) var(--padding-66xl);
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  flex-direction: column;
+  justify-content: center;
+}
+.alreadyHaveAccount,
+.logIn {
+  position: relative;
+  font-size: var(--title-16px-regular-size);
+  line-height: 24px;
+  font-family: var(--title-16px-regular);
+  color: var(--color-gray-300);
+  text-align: left;
+}
+.logIn {
+  font-weight: 500;
+  display: inline-block;
+  min-width: 47px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.underlineIcon3 {
+  width: 47px;
+  height: 1px;
+  position: relative;
+}
+.loginLink {
+  height: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.formActions,
+.inputFields,
+.loginOption,
+.socialLogin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.formActions,
+.inputFields,
+.socialLogin {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-13xl);
+}
+.formActions,
+.inputFields {
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+.inputFields {
+  margin: 0;
+  align-items: center;
+  gap: var(--gap-21xl);
+}
+.formContainer,
+.hero,
+.signupForm {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.formContainer {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-29xl);
+}
+.hero,
+.signupForm {
+  box-sizing: border-box;
+}
+.signupForm {
+  width: 371px;
+  flex-direction: column;
+  padding: var(--padding-106xl-5) 0 0;
+  min-width: 371px;
+}
+.hero {
+  width: 1325px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-110xl);
+  text-align: left;
+  font-size: var(--heading-36px-semibold-size);
+  color: var(--button);
+  font-family: var(--heading-24px-bold);
+}
+@media screen and (max-width: 1200px) {
+  .hero {
+    gap: var(--gap-45xl);
+  }
+}
+@media screen and (max-width: 1100px) {
+  .signupForm {
+    flex: 1;
+  }
+  .hero {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .sideImage {
+    min-width: 100%;
+  }
+  .createAnAccount {
+    font-size: var(--font-size-10xl);
+    line-height: 24px;
+  }
+  .signupForm {
+    padding-top: var(--padding-63xl);
+    box-sizing: border-box;
+  }
+  .hero {
+    gap: var(--gap-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .createAnAccount {
+    font-size: var(--font-size-3xl);
+    line-height: 18px;
+  }
+  .formFieldList {
+    gap: var(--gap-xl);
+  }
+  .googleSignUp {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .socialLogin {
+    gap: var(--gap-base);
+  }
+  .inputFields {
+    gap: var(--gap-xl);
+  }
+  .formContainer {
+    gap: var(--gap-5xl);
+  }
+  .signupForm {
+    min-width: 100%;
+  }
+  .hero {
+    gap: var(--gap-base);
+  }
+}

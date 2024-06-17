@@ -1,0 +1,59 @@
+.div,
+.ipsLcdGaming {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.div {
+  display: inline-block;
+  min-width: 43px;
+  white-space: nowrap;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--secondary-2);
+}
+.vectorIcon,
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-11xs-4);
+  min-height: 20px;
+}
+.fiveStar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div1 {
+  position: relative;
+  line-height: 21px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 32px;
+}
+.fiveStarParent,
+.ipsLcdGamingMonitorParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--title-14px-regular-size);
+  color: var(--color-gray-600);
+}
+.ipsLcdGamingMonitorParent {
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--title-16px-regular-size);
+  color: var(--button);
+  font-family: var(--title-16px-regular);
+}
